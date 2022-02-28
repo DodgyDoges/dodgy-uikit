@@ -119,7 +119,7 @@ const Menu: React.FC<NavProps> = ({
         />
         <Flex>
         <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>Mint</Button>
-        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>opensea</Button>
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>OpenSea</Button>
         <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>Store</Button>
           <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>Contact Us</Button>
           {/* <UserBlock account={account} login={login} logout={logout} />
