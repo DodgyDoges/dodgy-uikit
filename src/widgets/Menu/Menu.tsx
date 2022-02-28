@@ -118,9 +118,12 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? "/"}
         />
         <Flex>
-          <Button size="sm" style={{backgroundColor: "#000000", color: "#FFFFFF", lineHeight: "16px", fontSize: "0.88rem", boxShadow:"-0.16em -0.2em #FFFF00, 0.16em 0.2em #0000FF", marginRight: "20px"}}>Market Place</Button>
-          <UserBlock account={account} login={login} logout={logout} />
-          {profile && <Avatar profile={profile} />}
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>Mint</Button>
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>opensea</Button>
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>Store</Button>
+          <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>Contact Us</Button>
+          {/* <UserBlock account={account} login={login} logout={logout} />
+          {profile && <Avatar profile={profile} />} */}
         </Flex>
       </StyledNav>
       <BodyWrapper>
