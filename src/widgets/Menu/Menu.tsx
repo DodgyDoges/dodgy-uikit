@@ -118,10 +118,10 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? "/"}
         />
         <Flex>
-        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>Mint</Button>
-        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>OpenSea</Button>
-        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>Store</Button>
-          <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1.25rem", marginRight: "20px", boxShadow: "0px"}}>Contact Us</Button>
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none"}}>Mint</Button>
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none"}}>OpenSea</Button>
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none"}}>Store</Button>
+          <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none"}}>Contact Us</Button>
           {/* <UserBlock account={account} login={login} logout={logout} />
           {profile && <Avatar profile={profile} />} */}
         </Flex>
