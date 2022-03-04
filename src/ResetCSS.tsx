@@ -80,6 +80,12 @@ const ResetCSS = createGlobalStyle`
     box-shadow: inset 0 0 5px ${({ theme }) => theme.colors.input}; 
     border-radius: 10px;
   }
+  @font-face {
+    font-family: 'Geomanist-Black';
+    src: local('Geomanist-Black'), url('Geomanist-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
 `;
 
 export default ResetCSS;
