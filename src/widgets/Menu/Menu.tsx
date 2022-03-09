@@ -29,7 +29,6 @@ const StyledNav = styled.nav`
   width: 100%;
   height: ${MENU_HEIGHT}px;
   background-color: transparent;
-  border-bottom: solid 2px rgba(133, 133, 133, 0.1);
   z-index: 20;
   transform: translate3d(0, 0, 0);
 `;
@@ -118,10 +117,10 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? "/"}
         />
         <Flex>
-        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px"}}>Mint</Button>
-        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px"}}>OpenSea</Button>
-        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px"}}>Store</Button>
-          <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px"}}>Contact Us</Button>
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px", opacity: "0.4"}}>Mint</Button>
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px", opacity: "0.4"}}>OpenSea</Button>
+        <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px", opacity: "0.4"}}>Store</Button>
+          <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px", opacity: "0.4"}}>Contact Us</Button>
           {/* <UserBlock account={account} login={login} logout={logout} />
           {profile && <Avatar profile={profile} />} */}
         </Flex>
