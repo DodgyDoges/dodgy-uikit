@@ -2028,7 +2028,7 @@ var Menu = function (_a) {
                 React.createElement(Button, { size: "sm", style: { backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow: "none", borderWidth: "0px", opacity: "0.4" } }, "OpenSea"),
                 React.createElement(Button, { size: "sm", style: { backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow: "none", borderWidth: "0px", opacity: "0.4" } }, "Store"),
                 React.createElement("a", { href: "https://forms.gle/PNDouKbord36JY166" },
-                    React.createElement(Button, { size: "sm", style: { backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow: "none", borderWidth: "0px", opacity: "0.4" } }, "Contact Us")))),
+                    React.createElement(Button, { size: "sm", style: { backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow: "none", borderWidth: "0px" } }, "Contact Us")))),
         React.createElement(BodyWrapper, null,
             React.createElement(Panel, { isPushed: isPushed, isMobile: isMobile, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, pushNav: setIsPushed, links: links, priceLink: priceLink }),
             React.createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),

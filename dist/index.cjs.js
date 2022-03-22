@@ -2041,7 +2041,7 @@ var Menu = function (_a) {
                 React__default['default'].createElement(Button, { size: "sm", style: { backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow: "none", borderWidth: "0px", opacity: "0.4" } }, "OpenSea"),
                 React__default['default'].createElement(Button, { size: "sm", style: { backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow: "none", borderWidth: "0px", opacity: "0.4" } }, "Store"),
                 React__default['default'].createElement("a", { href: "https://forms.gle/PNDouKbord36JY166" },
-                    React__default['default'].createElement(Button, { size: "sm", style: { backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow: "none", borderWidth: "0px", opacity: "0.4" } }, "Contact Us")))),
+                    React__default['default'].createElement(Button, { size: "sm", style: { backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow: "none", borderWidth: "0px" } }, "Contact Us")))),
         React__default['default'].createElement(BodyWrapper, null,
             React__default['default'].createElement(Panel, { isPushed: isPushed, isMobile: isMobile, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, pushNav: setIsPushed, links: links, priceLink: priceLink }),
             React__default['default'].createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),

@@ -120,7 +120,7 @@ const Menu: React.FC<NavProps> = ({
         <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px", opacity: "0.4"}}>Mint</Button>
         <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px", opacity: "0.4"}}>OpenSea</Button>
         <Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px", opacity: "0.4"}}>Store</Button>
-        <a href="https://forms.gle/PNDouKbord36JY166"><Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px", opacity: "0.4"}}>Contact Us</Button></a>
+        <a href="https://forms.gle/PNDouKbord36JY166"><Button size="sm" style={{backgroundColor: "transparent", color: "#000000", lineHeight: "16px", fontSize: "1rem", marginRight: "10px", boxShadow:"none", borderWidth:"0px"}}>Contact Us</Button></a>
           {/* <UserBlock account={account} login={login} logout={logout} />
           {profile && <Avatar profile={profile} />} */}
         </Flex>
