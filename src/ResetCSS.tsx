@@ -20,6 +20,7 @@ const ResetCSS = createGlobalStyle`
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
+    overflow-x: hidden;
   }
   /* HTML5 display-role reset for older browsers */
   /* prettier-ignore */
